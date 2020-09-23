@@ -1,0 +1,29 @@
+.navbar{
+    background: #492540;  
+   
+}
+.navbar a{
+    color:#F26D5B;
+    font-size: 1.6em;
+    margin: 0px 2em;
+}
+.navbar a:hover{
+    text-shadow:2px 2px 2px black;
+}
+.navbar span:hover{
+    text-shadow: 3px 3px 2px black;
+}
+.navLeft{
+    padding-left: 2em;
+}
+.navRight{
+    padding-right: 2em;
+}
+#navMiddle{
+    margin-right:auto;
+    margin-left: auto;
+    color:#F6EA8C;
+    text-shadow: 2px 2px 1px rgb(39, 39, 39);
+    font-family: buttermilk;
+    font-size: 2.0em;
+}

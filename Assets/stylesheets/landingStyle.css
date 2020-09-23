@@ -1,0 +1,46 @@
+html{
+    height:100%;
+}
+body{
+    background-image: url("OMushroom1.png");
+    height: 100%;
+}
+h2{
+    font-size:36px;
+}
+.btnDiv{
+    top: 52.5%;
+    position: absolute;
+    background: #F26D5B;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    height: 10%;
+    min-height: 72px;
+}
+#container{
+    background:#492540;
+    height:50%;
+    display: flex;
+    align-items: center;
+}
+#intro1 {
+    color:#F6EA8C;
+    background-color:#492540;
+    width: 100%;
+    min-height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btnDiv h1{
+    color:#492540;
+    text-shadow: 1px 1px 2px black;
+
+}
+.btnDiv a:hover{
+    text-decoration: none;
+}

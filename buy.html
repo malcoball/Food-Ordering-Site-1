@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/buyStyle.css">
+    <link rel="stylesheet" href="assets/stylesheets/navStyle.css">
+    <link rel="shortcut icon" href="assets/imgs/icon1.png" type="image/x-icon">
+    <title>MWS - Buy</title>
+</head>
+<body>
+<!-- navbar duh-->
+<div  id="navContainer" >
+    <nav class="navbar navbar-expand-lg">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars fa-2x" id="hamBur"></i></span>
+        </button>
+        <!--left-->
+        
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav navLeft">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Info</a>
+            </li>
+            <li class="nav-item">
+                <a href="buy.html" class="nav-link">Buy</a>
+            </li>
+            </ul>
+            <!--middle-->
+            <span class="navbar-brand" id="navMiddle" href="#">Malc's wrap shack</span>
+            <!--right-->
+            <ul class="navbar-nav navRight">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Checkout</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>   
+<!--Main page-->
+<div class="container mainPage" id="mainPage">
+    <!-- special -->
+    <div id="intro">
+        <nav class="navbar">
+            <span class="navbar-text navStick">
+            <h1 id="h1">Special:</h1>
+            </span>
+        </nav>
+        <!--Article-->
+        <div class="cardCont">
+            <div class="card row justify-content-center" id="card1">
+                <div class="flex1">
+                    <h2>Name: Spanish Omelette</h2>
+                    <h2>Price: £2.50</h2>
+                    <h2>kCal: 259</h2>
+                </div>
+                <hr class="py-0 mt-0 mb-2">
+                <div class="row">
+                    <img class="card-img-top col-12 col-md-5" src="Assets/imgs/spanishOmelette.png" alt="Card image cap">
+                    <div class="col-12 col-md-5">
+                        <h1>One of the best omelettes I've ever eaten!</h1>
+                        <p>4/5 stars</p>
+                        <h3>Random User</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                <p class="card-text">Spanish omelette or Spanish tortilla is a traditional dish from Spain and one of the signature dishes in the Spanish cuisine. It is an omelette made with eggs and potatoes, optionally including onion. It is often served at room temperature as a tapa. It is commonly known in Spanish-speaking countries as tortilla de patatas, tortilla de papas or tortilla española</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- buy normal -->
+    <div id="intro">
+
+        <!--content/list-->
+        <div class="buyCont">
+            <!--Omellete list-->
+            <nav class="navbar">
+                <span class="navbar-text navStick">
+                <h1 id="h1" class="listHead1">Omelettes:</h1>
+                </span>
+            </nav>
+            <div class="omCont">
+                
+            </div>
+            <!--Wraps list-->
+            <nav class="navbar">
+                <span class="navbar-text navStick">
+                <h1 id="h1" class="listHead2">Wraps:</h1>
+                </span>
+            </nav>
+            <div class="wpCont">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Side bar/basket-->
+<div id="sidebar" class="basketHide">
+    <p id="totalItems">Total Items : 0</p>
+    <p id="totalBasket">Basket Subtotal : £0</p>
+    <button class="btn1"><p>Proceed to checkout</p></button>
+
+    <div id="basketList">
+        <table id="basketTable">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+</div>
+<!--SCripts-->
+<div>
+<script src="https://kit.fontawesome.com/91f5d07d0e.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+<script src="assets/scripts/buyScript.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body{
+    background: #F26D5B;  /* fallback for old browsers */
+
+    font-family:sans-serif;
+}
+
+
+
+.dropdown-menu{
+    background: rgb(97, 35, 33);
+}
+.dropdown-item:hover{
+    background:rgba(0, 0, 0, 0.212);
+}
+.dropdown-divider{
+    border-top: solid 2px rgb(0, 0, 0);
+}
+
+
+.navStick h1{
+    position: sticky;
+    letter-spacing: 1rem;
+    color:#F26D5B;
+}
+.navStick h1:hover{
+    cursor: pointer;
+}
+.flex1{
+    display:flex;
+    justify-content: space-between;
+
+}
+.cardCont{
+    background:inherit;
+}
+.card {
+    width: 80%;
+    margin: 0 10%;
+}
+.card img{
+    width:640px;
+}
+li{
+    list-style-type: none;
+}
+.listHead{
+    background:#492540;
+    margin: 12px 0;
+}
+.listHead:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.buyCard{
+    margin:0 0%;
+    padding-top: 5px;
+    text-align:center;
+    background:inherit;
+    border:1px solid #492540;
+}
+.buyCard h5{
+    text-transform: uppercase;
+    color: #F6EA8C;
+    text-shadow: 1px 1px 2px black;
+}
+.card-text{
+    padding-bottom:1em;
+}
+.card-text:first-letter{
+    text-transform: capitalize;
+
+}
+.buyCard:hover{
+    cursor: pointer;
+}
+.cardRow{
+    margin:0px 18px;
+}
+.basketShow{
+    display:block;
+    background-color: #7c203a;
+}
+.basketHide{
+    display: none;
+}
+.cancel{
+    cursor: pointer;
+}
+.btn1{
+    color:white;
+    background:#492540;
+    padding-top:12px;
+    border:none;
+    margin-bottom: 12px;
+}
+table{
+    border:1px black;
+    width: 100%;
+    padding-right:10%;
+}
+tr{
+    height: 4.0em;
+}
+.tbleItem{
+    padding: 0px 0;
+}
+
+
+
+#mainPage{
+    margin-right: 100%;
+    padding-left:0;
+}
+
+#intro .navbar{
+    background:#492540;
+    margin: 12px 0;
+}
+
+
+#sidebar{
+    position: fixed;
+    width:20%;
+    border: 12px solid #3d1f1f;
+    border-radius: 30px 0px 0px 0px;
+    left: 80%;
+    top:74px;
+    height:93%;
+    background: #F26D5B;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    padding-top:12px;
+    overflow: auto;
+}
+#card1{
+    background:inherit;
+    cursor: pointer;
+    border:none;
+    margin-top:12px;
+    margin: 0 19px;
+    width: 95%;
+}
+#card1 .card-text{
+    margin:0;
+}
+#basketId{
+    background:blue;
+    position: fixed;
+}

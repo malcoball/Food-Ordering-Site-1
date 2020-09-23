@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="assets/stylesheets/navStyle.css">
+    <link rel="shortcut icon" href="assets/imgs/icon1.png" type="image/x-icon">
+    <title>MWS - Info/gallery</title>
+</head>
+<body>
+
+<!-- navbar duh-->
+<div  id="navContainer" >
+    <nav class="navbar navbar-expand-lg">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars fa-2x" id="hamBur"></i></span>
+        </button>
+        <!--left-->
+        
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav navLeft">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Info</a>
+            </li>
+            <li class="nav-item">
+                <a href="buy.html" class="nav-link">Buy</a>
+            </li>
+            </ul>
+            <!--middle-->
+            <span class="navbar-brand" id="navMiddle" href="#">Malc's wrap shack</span>
+            <!--right-->
+            <ul class="navbar-nav navRight">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Checkout</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>  
+<!--Main Header-->
+<div>
+    <h1 class="display-1 text-center" id="mainH">Malc's Wrap Shack</h1>
+</div>
+    <!--Image gallery-->
+<div>
+    <!--arrows-->
+    
+    <!--Images-->
+    <div class="headerDiv">
+        <img src="assets/imgs/wrap1.png" alt="" class="headerImgs">
+        <img src="assets/imgs/omelette.png" alt="" class="headerImgs">
+        <img src="assets/imgs/smoothie.png" alt="" class="headerImgs">
+        <img src="assets/imgs/foodVan.png" alt="" class="headerImgs">
+        
+    </div>
+    <!--Arrows-->
+    <div class="arrowsCont">
+        <i class="fas fa-arrow-left fa-4x arrows d-none d-xl-block" id="arrowLeft"></i>
+        <i class="fas fa-arrow-right fa-4x arrows d-none d-xl-block" id="arrowRight"></i>
+    </div>
+    <!--dots-->
+    <div class="headerDots">
+        <p id="countOut"></p>
+        
+    </div>
+    <div id="btnDiv">
+        <button class="btn" id="btn1">pause</button>
+    </div>
+</div>
+
+
+
+<!--Articles-->
+<hr>
+<div class="container article">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-6 ">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quod ullam totam a minus, odit expedita reiciendis natus ducimus deserunt iure. Magnam corporis itaque eius enim non, libero ab? Quis earum explicabo in soluta tenetur fugit, eaque quia aperiam officiis facilis id rerum dolores laudantium iusto quo necessitatibus deserunt deleniti.</p>
+        </div>
+        <div class="col-12 col-md-6">
+            <img class="img-fluid" src="assets/imgs/blt.png" alt="bread" >
+        </div>
+    </div>
+</div>
+<div class="container article">
+    <div class="row justify-content-center align-items-center">
+
+        <div class="col-12-sm col-md-6 order-12 order-md-1">
+            <img class="img-fluid" id="test" src="assets/imgs/wrap2.png" alt="bread" height="240px">
+        </div>
+        <div class="col-12-sm col-md-6 order-1 order-md-12">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quod ullam totam a minus, odit expedita reiciendis natus ducimus deserunt iure. Magnam corporis itaque eius enim non, libero ab? Quis earum explicabo in soluta tenetur fugit, eaque quia aperiam officiis facilis id rerum dolores laudantium iusto quo necessitatibus deserunt deleniti.</p>
+        </div>
+    </div>
+</div>
+<div class="container article">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-6">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quod ullam totam a minus, odit expedita reiciendis natus ducimus deserunt iure. Magnam corporis itaque eius enim non, libero ab? Quis earum explicabo in soluta tenetur fugit, eaque quia aperiam officiis facilis id rerum dolores laudantium iusto quo necessitatibus deserunt deleniti.</p>
+        </div>
+        <div class="col-12 col-md-6">
+            <img class="img-fluid" src="assets/imgs/panini1.png" alt="bread" >
+        </div>
+    </div>
+</div>
+<hr>
+<script src="https://kit.fontawesome.com/91f5d07d0e.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+<script src="assets/scripts/script.js"></script>
+</body>
+</html>
